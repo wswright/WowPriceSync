@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scott.WoWAPI", "Scott.WoWAPI\Scott.WoWAPI.csproj", "{BCAF1977-07FB-4777-8B2A-1ED67B6A5684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scott.WoWAPI.Test", "Scott.WoWAPI.Test\Scott.WoWAPI.Test.csproj", "{3D15B89D-316E-4C5B-89DF-937740E8E3B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoWPriceSyncUI", "WoWPriceSyncUI\WoWPriceSyncUI.csproj", "{DAD3C7E4-DA9F-4891-93F6-F21AD5BB1B30}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://wswright.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Scott.WoWAPI.Test\\Scott.WoWAPI.Test.csproj
+		SccProjectName1 = Scott.WoWAPI.Test
+		SccLocalPath1 = Scott.WoWAPI.Test
+		SccProjectUniqueName2 = Scott.WoWAPI\\Scott.WoWAPI.csproj
+		SccProjectName2 = Scott.WoWAPI
+		SccLocalPath2 = Scott.WoWAPI
+		SccProjectUniqueName3 = WoWPriceSyncUI\\WoWPriceSyncUI.csproj
+		SccProjectName3 = WoWPriceSyncUI
+		SccLocalPath3 = WoWPriceSyncUI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCAF1977-07FB-4777-8B2A-1ED67B6A5684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAF1977-07FB-4777-8B2A-1ED67B6A5684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAF1977-07FB-4777-8B2A-1ED67B6A5684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAF1977-07FB-4777-8B2A-1ED67B6A5684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D15B89D-316E-4C5B-89DF-937740E8E3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D15B89D-316E-4C5B-89DF-937740E8E3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D15B89D-316E-4C5B-89DF-937740E8E3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D15B89D-316E-4C5B-89DF-937740E8E3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD3C7E4-DA9F-4891-93F6-F21AD5BB1B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD3C7E4-DA9F-4891-93F6-F21AD5BB1B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD3C7E4-DA9F-4891-93F6-F21AD5BB1B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD3C7E4-DA9F-4891-93F6-F21AD5BB1B30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

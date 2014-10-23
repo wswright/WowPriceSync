@@ -1,0 +1,7 @@
+c:\users\scott\documents\visual studio 2012\Projects\Scott.WoWAPI\Scott.WoWAPI\bin\Release\Scott.WoWAPI.dll
+c:\users\scott\documents\visual studio 2012\Projects\Scott.WoWAPI\Scott.WoWAPI\bin\Release\Scott.WoWAPI.pdb
+c:\users\scott\documents\visual studio 2012\Projects\Scott.WoWAPI\Scott.WoWAPI\bin\Release\Newtonsoft.Json.dll
+c:\users\scott\documents\visual studio 2012\Projects\Scott.WoWAPI\Scott.WoWAPI\bin\Release\Newtonsoft.Json.xml
+c:\users\scott\documents\visual studio 2012\Projects\Scott.WoWAPI\Scott.WoWAPI\obj\Release\Scott.WoWAPI.dll
+c:\users\scott\documents\visual studio 2012\Projects\Scott.WoWAPI\Scott.WoWAPI\obj\Release\Scott.WoWAPI.pdb
+c:\users\scott\documents\visual studio 2012\Projects\Scott.WoWAPI\Scott.WoWAPI\obj\Release\Scott.WoWAPI.csprojResolveAssemblyReference.cache

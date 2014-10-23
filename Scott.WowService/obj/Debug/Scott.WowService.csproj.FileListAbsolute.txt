@@ -1,0 +1,6 @@
+C:\Users\scott\Documents\Visual Studio 2012\Projects\Scott.WoWAPI\Scott.WowService\bin\Debug\Scott.WowService.dll.config
+C:\Users\scott\Documents\Visual Studio 2012\Projects\Scott.WoWAPI\Scott.WowService\bin\Debug\Scott.WowService.dll
+C:\Users\scott\Documents\Visual Studio 2012\Projects\Scott.WoWAPI\Scott.WowService\bin\Debug\Scott.WowService.pdb
+C:\Users\scott\Documents\Visual Studio 2012\Projects\Scott.WoWAPI\Scott.WowService\obj\Debug\Scott.WowService.csprojResolveAssemblyReference.cache
+C:\Users\scott\Documents\Visual Studio 2012\Projects\Scott.WoWAPI\Scott.WowService\obj\Debug\Scott.WowService.dll
+C:\Users\scott\Documents\Visual Studio 2012\Projects\Scott.WoWAPI\Scott.WowService\obj\Debug\Scott.WowService.pdb

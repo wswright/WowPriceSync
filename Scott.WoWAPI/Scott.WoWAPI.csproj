@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BCAF1977-07FB-4777-8B2A-1ED67B6A5684}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Scott.WoWAPI</RootNamespace>
+    <AssemblyName>Scott.WoWAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.5\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APIModel\Achievement.cs" />
+    <Compile Include="APIModel\AuctionData.cs" />
+    <Compile Include="APIModel\AuctionDataFile.cs" />
+    <Compile Include="APIModel\BattlePetAbility.cs" />
+    <Compile Include="APIModel\BattlePetSpecies.cs" />
+    <Compile Include="APIModel\BattlePetStats.cs" />
+    <Compile Include="APIModel\Challenge.cs" />
+    <Compile Include="APIModel\Character.cs" />
+    <Compile Include="APIModel\CharacterAchievements.cs" />
+    <Compile Include="APIModel\CharacterChallengeMode.cs" />
+    <Compile Include="APIModel\CharacterFeed.cs" />
+    <Compile Include="APIModel\CharacterGuild.cs" />
+    <Compile Include="APIModel\CharacterHunterPets.cs" />
+    <Compile Include="APIModel\CharacterItems.cs" />
+    <Compile Include="APIModel\CharacterMounts.cs" />
+    <Compile Include="APIModel\CharacterPets.cs" />
+    <Compile Include="APIModel\CharacterPetSlots.cs" />
+    <Compile Include="APIModel\CharacterProfessions.cs" />
+    <Compile Include="APIModel\CharacterProgression.cs" />
+    <Compile Include="APIModel\CharacterPVP.cs" />
+    <Compile Include="APIModel\CharacterQuests.cs" />
+    <Compile Include="APIModel\CharacterReputation.cs" />
+    <Compile Include="APIModel\CharacterStats.cs" />
+    <Compile Include="APIModel\CharacterTalents.cs" />
+    <Compile Include="APIModel\CharacterTitles.cs" />
+    <Compile Include="APIModel\Item.cs" />
+    <Compile Include="APIModel\RealmStatus.cs" />
+    <Compile Include="API\APIAuction.cs" />
+    <Compile Include="API\APIAuctionData.cs" />
+    <Compile Include="API\APIItem.cs" />
+    <Compile Include="API\APIRealmStatus.cs" />
+    <Compile Include="AsyncWebHelper.cs" />
+    <Compile Include="APIModel\AuctionEntry.cs" />
+    <Compile Include="DataUtils.cs" />
+    <Compile Include="IDBLayer.cs" />
+    <Compile Include="IWoWAPICall.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RateLimiter.cs" />
+    <Compile Include="RealmInfo.cs" />
+    <Compile Include="RegionInfo.cs" />
+    <Compile Include="URLExtender.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
